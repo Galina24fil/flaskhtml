@@ -1,0 +1,24 @@
+h1 {
+   color: #FF0000
+}
+.alert0 {
+   color: #000000;
+   background-color: #808080;
+}
+.alert1 {
+   color: #008000;
+   background-color: #90ee90;
+}
+.alert2 {
+   color: #323332;
+   background-color: #d0d0d0;
+}
+
+.alert3 {
+   color: #808000;
+   background-color: #faf87d;
+}
+.alert4 {
+   color: #cf2c17;
+   background-color: #ff7a66;
+}
