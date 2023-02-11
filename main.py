@@ -54,19 +54,19 @@ def bootstrap():
                   <body>
                     <h1>Жди нас, Марс!</h1>
                     <img src="/static/mars.jpg" alt="здесь должна была быть картинка, но не нашлась">
-                    <div class="alert0 alert-primary" role="alert">
+                    <div class="alert alert-secondary" role="alert">
                       Человечество вырастает из детства.
                     </div>
-                    <div class="alert1 alert-primary" role="alert">
+                    <div class="alert alert-success" role="alert">
                       Человечеству мала одна планета.
                     </div>
-                    <div class="alert2 alert-primary" role="alert">
+                    <div class="alert alert-light" role="alert">
                       Мы сделаем обитаемыми безжизненные пока планеты.
                     </div>
-                    <div class="alert3 alert-primary" role="alert">
+                    <div class="alert alert-warning" role="alert">
                       И начнем с Марса!
                     </div>
-                    <div class="alert4 alert-primary" role="alert">
+                    <div class="alert alert-danger" role="alert">
                       Присоединяйся!
                     </div>
                   </body>
