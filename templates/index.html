@@ -9,14 +9,14 @@
 'инженер по терраформированию', 'климатолог', 'специалист по радиационной защите', 'астрогеолог', 'метеоролог',
 'оператор марсохода', 'киберинженер', 'штурман', 'пилот дронов'] %}
 <ul>
-{% if ol %}
-        {% for user in user_list %}
-        {{ loop.index }}. {{ user }}</br>
-        {% endfor %}
-{% elif ul %}
-        {% for user in user_list %}
-        <li>{{ user }}</li>
-        {% endfor %}
-{% endif %}
+    {% if a == 'ol' %}
+    {% for user in user_list %}
+    {{ loop.index }}. {{ user }}</br>
+    {% endfor %}
+    {% elif a == 'ul' %}
+    {% for user in user_list %}
+    <li>{{ user }}</li>
+    {% endfor %}
+    {% endif %}
 </ul>
 {% endblock %}
