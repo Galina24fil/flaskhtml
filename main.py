@@ -79,10 +79,10 @@ def astronaut_selection():
                                         <label for="photo">Приложите фотографию</label>
                                         <input type="file" class="form-control-file" id="photo" name="file">
                                     </div>
-                                    <div class="form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="acceptRules" name="mars">
-                                        <label class="form-check-label" for="acceptRules">Готовы остаться на Марсе?</label><br />
-                                    </div>
+                                     <div class="form-group form-check">
+                                            <input type="checkbox" class="form-check-input" id="acceptRules" name="accept">
+                                            <label class="form-check-label" for="acceptRules">Готовы остаться на Марсе?</label>
+                                        </div>
                                     <button type="submit" class="btn btn-primary">Записаться</button>
                                 </form>
                             </div>
@@ -97,7 +97,6 @@ def astronaut_selection():
         print(request.form['sex'])
         print(request.form['about'])
         print(request.form['file'])
-        print(request.form['mars'])
         return "Форма отправлена"
 
 
