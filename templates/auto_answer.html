@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Миссия Колонизация Марса</h1>
+<h4>И на Марсе будут яблони цвести!</h4>
+
+<ul>
+    {% for user in s %}
+    {% if loop.last %}
+    {{ user }} {{ s[user] }}
+    {% else %}
+    {{ user }}: {{ s[user] }} <br/>
+    {% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}
