@@ -89,14 +89,6 @@ def astronaut_selection():
                           </body>
                         </html>'''
     elif request.method == 'POST':
-        print(request.form['text1'])
-        print(request.form['text2'])
-        print(request.form['email'])
-        print(request.form['class'])
-        print(request.form['accept'])
-        print(request.form['sex'])
-        print(request.form['about'])
-        print(request.form['file'])
         return "Форма отправлена"
 
 
