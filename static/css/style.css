@@ -1,3 +1,21 @@
-h1 {
-   color: #FF0000
+table{
+  margin: 0 auto;
+  text-align: center;
+}
+h4 {
+color: #808080;
+}
+h2 {
+    text-align: center;
+}
+p {
+text-align: center;
+}
+img {
+    margin: 10px auto 20px;
+    display: block;
+}
+td {
+width: 400px;
+height: 400px;
 }
